@@ -76,7 +76,7 @@ const PaymentPage = ({ username }) => {
       "description": "Test Transaction",
       "image": "tea.gif",
       "order_id": orderId,
-      "callback_url": `${process.env.NEXT_PUBLIC_URL}/api/razorpay`,
+      "callback_url": `${process.env.NEXTAUTH_URL}/api/razorpay`,
       "prefill": {
         "name": "vivek",
         "email": "vivek.vini@example.com",
