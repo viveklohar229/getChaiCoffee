@@ -14,7 +14,7 @@ const Login = () => {
     if (session) {
       router.push('/login')
     }
-  }, [])
+  }, [session])
 
 
 

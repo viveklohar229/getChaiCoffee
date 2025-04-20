@@ -153,7 +153,7 @@ const Products = () => {
           <h2 className="text-4xl  font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Our Products
           </h2>
-          <img src="/logo.webp" alt="" />
+          <img src="/logo.webp" alt="images" />
           <p className="">There are many variations of our products.</p>
           <div className="  cursor-pointer grid gap-10 space-y-10 md:space-y-0 sm:gap-20  sm:grid-cols-2 lg:grid-cols-3 ">
             <div className="card flex justify-center items-center flex-col sm:gap-1 group h-96 w-60 rounded-xl   [perspective:1000px]">
@@ -234,7 +234,7 @@ const Products = () => {
           <h2 className="text-4xl  font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Featured Products
           </h2>
-          <img src="/logo.webp" alt="" />
+          <img src="/logo.webp" alt="images" />
           <p className="">There are many variations of our products.</p>
           <div className="  cursor-pointer grid gap-10 space-y-10 md:space-y-0 sm:gap-20 sm:grid-cols-2 lg:grid-cols-3 ">
             <div className="card flex justify-center items-center flex-col sm:gap-1 group h-96 w-60 rounded-xl   [perspective:1000px]">
@@ -309,77 +309,6 @@ const Products = () => {
       <div className="bg-white h-1 opacity-10 ">
       </div>
 
-      {/* <div className="mx-auto flex justify-center object-center px-4 py-16 sm:py-24 lg:max-w-7xl">
-
-        <div className="flex items-center justify-center object-center flex-col gap-12 sm:gap-5">
-
-          <h2 className="text-4xl  font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
-          How It Works
-          </h2>
-          <img src="/logo.webp" alt="" />
-          <p className="">Advantages of Organic Jaggery.</p>
-
-          <div className=" cursor-pointer grid gap-10 space-y-10 md:space-y-0 sm:gap-20 lg:grid-cols-3 ">
-          <div className=" flex items-end  flex-col sm:gap-1 group h-screen w-96 rounded-xl  3   [perspective:1000px]">
-            
-              <div className="flex mt-40 flex-row items-center gap-6 ">
-                <h3 className="text-2xl ">Improve digestion</h3>
-              <Link href={"/products"}> 
-                <img src="/digestion.png" alt="" /></Link>
-              
-            </div>
-              <div className="flex mt-20 flex-row items-center gap-6 ">
-                <h3 className="text-2xl ">Useful for joint pain</h3>
-            <Link href={"/products"}> 
-              <img src="/joint.png" alt="" /></Link>
-              
-            </div>
-              <div className="flex mt-20 flex-row items-center gap-6 ">
-                <h3 className="text-2xl ">Increases immune system</h3>
-              <Link href={"/products"}> 
-                <img src="/immune.png" alt="" /></Link>
-              
-            </div>
-              <div className="flex mt-20 flex-row items-center gap-6 ">
-                <h3 className="text-2xl ">Reduces pain during periods</h3>
-              <Link href={"/products"}> 
-                <img src="/pain.png" alt="" /></Link>
-              
-            </div>
-            </div>
-          <div className="flex justify-center items-center flex-col sm:gap-1 group h-screen w-96 rounded-xl  3  [perspective:1000px]">
-            <img src="/box7.webp" alt="" />
-            </div>
-          <div className=" flex items-start flex-col sm:gap-1 group h-screen w-96 rounded-xl  3   [perspective:1000px]">
-          <div className="flex mt-40 flex-row items-center gap-6 ">
-              <Link href={"/products"}> 
-                <img src="/reduce.png" alt="" /></Link>
-                <h3 className="text-2xl ">Helps to reduce weight</h3>
-              
-            </div>
-              <div className="flex mt-20 flex-row items-center gap-6 ">
-            <Link href={"/products"}> 
-              <img src="/weakness.png" alt="" /></Link>
-                <h3 className="text-2xl ">Helps to relieve weakness</h3>
-              
-            </div>
-              <div className="flex mt-20 flex-row items-center gap-6 ">
-              <Link href={"/products"}> 
-                <img src="/skin.png" alt="" /></Link>
-                <h3 className="text-2xl ">Beneficial for skin & hair</h3>
-              
-            </div>
-              <div className="flex mt-20 flex-row items-center gap-6 ">
-              <Link href={"/products"}> 
-                <img src="/anemia.png" alt="" /></Link>
-                <h3 className="text-2xl ">Helps in anemia & BP</h3>
-              
-            </div>
-            </div>
-            </div>
-          </div>
-
-      </div> */}
       <div className="mx-auto px-4 py-16 sm:py-24 lg:max-w-7xl text-center">
         <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-white mb-12">
           How It Works

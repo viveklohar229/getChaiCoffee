@@ -36,17 +36,17 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-14">Your Fans can buy you a Chai or coffee</h2>
         <div className="flex gap-5 justify-around">
           <div className="item space-y-3 flex flex-col items-center justify-center">
-            <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/man.gif" alt="" />
+            <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/man.gif" alt="images" />
             <p className="font-bold text-center">Fans want to help</p>
             <p className="  text-center">Your fans are available to support you</p>
           </div>
           <div className="item space-y-3 flex flex-col items-center justify-center">
-            <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/coin.gif" alt="" />
+            <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/coin.gif" alt="images" />
             <p className="font-bold text-center">Fans want to contribute</p>
             <p className=" text-center">Your fans are willing to contribute financially</p>
           </div>
           <div className="item space-y-3 flex flex-col items-center justify-center">
-            <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/group.gif" alt="" />
+            <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/group.gif" alt="images" />
             <p className="font-bold text-center">Fans want to collaborate</p>
             <p className=" text-center">Your fans are ready to collaborate with you</p>
           </div>
@@ -70,7 +70,7 @@ export default function Home() {
         <div className="us flex flex-col-reverse md:flex-row justify-between items-center gap-10 mx-4 mb-24">
           <div className="flex flex-col mt-8 md:mt-0">
             <h2 className="text-white font-bold text-3xl md:text-5xl my-5 text-center md:text-left">Indian Masala Chai</h2>
-            <p className="text-center md:text-left">Embark on a sensory journey with our authentic Indian Masala Chai, a tribute to the rich tapestry of flavors that define traditional chai. Handcrafted with a symphony of robust Assam tea leaves, warm spices like cardamom, cinnamon, and cloves, our blend is an aromatic embrace of India's chai culture. Simmered to perfection, the infusion unfolds layers of bold flavor, offering a harmonious balance of spice and sweetness. Indulge in the warmth and nostalgia of this age-old recipe, an invitation to savor the heritage and warmth of Indian tea rituals. Experience the soulful comfort of our Indian Masala Chai in every rejuvenating cup.</p>
+            <p className="text-center md:text-left">Embark on a sensory journey with our authentic Indian Masala Chai, a tribute to the rich tapestry of flavors that define traditional chai. Handcrafted with a symphony of robust Assam tea leaves, warm spices like cardamom, cinnamon, and cloves, our blend is an aromatic embrace of India&apos;s chai culture. Simmered to perfection, the infusion unfolds layers of bold flavor, offering a harmonious balance of spice and sweetness. Indulge in the warmth and nostalgia of this age-old recipe, an invitation to savor the heritage and warmth of Indian tea rituals. Experience the soulful comfort of our Indian Masala Chai in every rejuvenating cup.</p>
           </div>
           <img className="w-full md:w-[500px] h-auto" src="/Indian.png" alt="Indian Masala Chai" />
         </div>

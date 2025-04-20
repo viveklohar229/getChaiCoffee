@@ -27,12 +27,11 @@ export const authoptions =  NextAuth({
       async signIn({ user, account, profile, email, credentials }) {
         if (account.provider === "github" || account.provider === "google") {
           await connectDb();
-          
-          // Check if the user already exists in the database
+       
           const currentUser = await User.findOne({ email: email });
           
           if (!currentUser) {
-            // Create a new user if they don't exist
+          
             const newUser = await User.create({
               email: user.email,
               username: user.email.split("@")[0],  // You can modify this logic as needed
